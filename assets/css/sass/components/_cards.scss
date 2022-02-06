@@ -1,0 +1,11 @@
+.card {
+  max-width: 350px;
+  &-body {
+    .card-title {
+      font-size: 25px;
+    }
+    .card-text {
+      font-size: 20px;
+    }
+  }
+}

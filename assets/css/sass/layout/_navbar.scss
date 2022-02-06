@@ -1,0 +1,32 @@
+.navbar {
+  padding: 20px;
+  &-brand {
+    img {
+      width: 150px;
+    }
+  }
+  &-toggler {
+    border: none;
+    font-size: 20px;
+  }
+  .collapse {
+    display: flex;
+    justify-content: end;
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .navbar {
+    .collapse {
+      display: flex;
+    }
+    .nav-item {
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+    }
+  }
+}
